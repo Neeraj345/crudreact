@@ -6,6 +6,12 @@
   height: 40vmin;
   pointer-events: none;
 }
+.btn{
+  margin: 2px;;
+}
+.divbtn{
+  float: left;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -35,4 +41,26 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+
+.col-75 {
+  float: left;
+  width: 70%;
+  margin-top: 6px;
+}
+
+.footer {
+  flex: 20%;
+  display: flex;
+  justify-content: center;
+}
+.error{
+  color: red;
 }
